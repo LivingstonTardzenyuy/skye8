@@ -18,14 +18,17 @@ class ReUsableCard1 extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              SizedBox(height: 20.0),
+              SizedBox(height: 10.0),
               Text(
                   label,
-                style: kSecondLastCard,
               ),
-              SizedBox(height: 10.0),
+              SizedBox(height: 5.0),
               Text(text),
-              Text(date)
+              Text(
+                  date,
+                style: kSecondLastCard,
+
+              )
 
             ],
           ),

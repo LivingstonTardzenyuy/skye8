@@ -17,5 +17,5 @@ const kSearch = TextStyle(
 const kSecondLastCard = TextStyle(
   fontSize: 14.0,
   fontWeight: FontWeight.w100,
-  color: Colors.white,
+  color: Colors.white30,
 );
